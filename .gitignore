@@ -131,3 +131,7 @@ dmypy.json
 .vscode/
 .temp/
 _*.bat
+
+/src/pycarot/tkwidgets/images
+/src/pycarot/tkwidgets/info.txt
+/src/pycarot/tkwidgets/style.py

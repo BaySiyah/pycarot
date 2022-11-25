@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <!-- Default -->
+    <style name=".">
+        <configure>
+            <value key="background" value="#1e1e1e"/>
+            <value key="foreground" value="#d4d4d4"/>
+        </configure>
+    </style>
+
+    <!-- Button -->
+    <style name="TCombobox">
+        <layout>
+            <element name="Combobox.field" sticky="nesw">
+                <element name="Combobox.downarrow" side="right" sticky="ns">
+                    <element name="Combobox.arrow" side="right"/>
+                </element>
+                <element name="Combobox.padding" expand="true" sticky="nesw">
+                    <element name="Combobox.textarea" sticky="nesw"/>
+                </element>
+            </element>
+        </layout>
+    </style>
+    <!-- <style name="Combobox.field">
+        <create type="image" value="combo-entry">
+            <statespec state="readonly disabled" value="button-insensitive"/>
+            <statespec state="readonly active" value="button-active"/>
+            <statespec state="readonly focus" value="button-focus"/>
+            <statespec state="readonly hover" value="button-hover"/>
+            <statespec state="readonly" value="button"/>
+            <statespec state="disabled" value="combo-entry-insensitive"/>
+            <statespec state="focus" value="combo-entry-focus"/>
+            <statespec state="hover" value="combo-entry"/>
+            <value key="border" value="4"/>
+            <value key="padding" value="6 0 0 0"/>
+        </create>
+    </style>
+    <style name="Combobox.downarrow">
+        <create type="image" value="combo-entry-button">
+            <statespec state="pressed" value="combo-entry-button-active"/>
+            <statespec state="active" value="combo-entry-button-hover"/>
+            <statespec state="disabled" value="combo-entry-button-insensitive"/>
+            <value key="border" value="4"/>
+            <value key="padding" value="0 10 6 10"/>
+        </create>
+    </style>
+    <style name="Combobox.arrow">
+        <create type="image" value="arrow-down">
+            <statespec state="active" value="arrow-down-prelight"/>
+            <statespec state="pressed" value="arrow-down-prelight"/>
+            <statespec state="disabled" value="arrow-down-insens"/>
+            <value key="sticky" value="e"/>
+            <value key="width" value="15"/>
+        </create>
+    </style> -->
+</settings>
